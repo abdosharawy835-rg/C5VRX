@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#172033">C5VRX — Passive 6-bit CVBS Resistor DAC</text>
+<text x="600" y="82" text-anchor="middle" font-family="Arial" font-size="17" fill="#475569">XIAO ESP32-C5 pin mapping from upstream README</text>
+<rect x="55" y="130" width="245" height="455" rx="18" fill="#e8f0fb" stroke="#355b91" stroke-width="3"/>
+<text x="177" y="170" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#17365d">XIAO ESP32-C5</text>
+<g font-family="Arial" font-size="19" fill="#172033">
+<text x="90" y="235">D4 / GPIO23</text><text x="90" y="295">D5 / GPIO24</text>
+<text x="90" y="355">D6 / GPIO11</text><text x="90" y="415">D7 / GPIO12</text>
+<text x="90" y="475">D8 / GPIO8</text><text x="90" y="535">D9 / GPIO9</text>
+</g>
+<g stroke="#263445" stroke-width="3" fill="none">
+<path d="M300 225 H380 M300 285 H380 M300 345 H380 M300 405 H380 M300 465 H380 M300 525 H380"/>
+<path d="M500 225 H690 M500 285 H690 M500 345 H690 M500 405 H690 M500 465 H690 M500 525 H690"/>
+<path d="M690 225 V525"/>
+<path d="M690 375 H870"/>
+<path d="M690 375 V590 H450"/>
+</g>
+<g fill="#fff7d6" stroke="#9a6b00" stroke-width="3">
+<rect x="380" y="205" width="120" height="40" rx="7"/><rect x="380" y="265" width="120" height="40" rx="7"/>
+<rect x="380" y="325" width="120" height="40" rx="7"/><rect x="380" y="385" width="120" height="40" rx="7"/>
+<rect x="380" y="445" width="120" height="40" rx="7"/><rect x="380" y="505" width="120" height="40" rx="7"/>
+</g>
+<g font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#624600">
+<text x="440" y="232">8.2 kΩ</text><text x="440" y="292">3.9 kΩ</text><text x="440" y="352">2.0 kΩ</text>
+<text x="440" y="412">1.0 kΩ</text><text x="440" y="472">470 Ω</text><text x="440" y="532">240 Ω</text>
+</g>
+<rect x="870" y="330" width="245" height="90" rx="12" fill="#e5f5eb" stroke="#287a45" stroke-width="3"/>
+<text x="992" y="366" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#14532d">CVBS_NODE</text>
+<text x="992" y="395" text-anchor="middle" font-family="Arial" font-size="17" fill="#14532d">Composite video out</text>
+<path d="M690 375 H870" stroke="#263445" stroke-width="3"/>
+<text x="790" y="355" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">common node</text>
+<path d="M992 420 V500" stroke="#263445" stroke-width="3"/>
+<rect x="930" y="500" width="125" height="45" rx="7" fill="#fff7d6" stroke="#9a6b00" stroke-width="3"/>
+<text x="992" y="529" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#624600">200 Ω</text>
+<path d="M992 545 V590 H450" stroke="#263445" stroke-width="3"/>
+<path d="M450 590 H300" stroke="#263445" stroke-width="3"/>
+<text x="170" y="625" font-family="Arial" font-size="19" font-weight="bold" fill="#172033">XIAO GND</text>
+<path d="M250 618 H300 V590" stroke="#263445" stroke-width="3"/>
+<text x="820" y="620" font-family="Arial" font-size="18" fill="#172033">GND → RCA shield</text>
+<text x="820" y="652" font-family="Arial" font-size="18" fill="#172033">CVBS_NODE → RCA centre pin</text>
+<text x="600" y="680" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Keep resistor order exact. Common ground required. Not a PCB layout.</text>
+</svg>
